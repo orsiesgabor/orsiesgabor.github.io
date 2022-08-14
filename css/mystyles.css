@@ -1,0 +1,33 @@
+#home{
+    background:linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("../assets/img/csonak.jpg");
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;              /* optional, center the image */
+}
+
+section.resume-section-home {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    width: 100%;
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+@media (min-width: 768px) {
+    section.resume-section-home {
+        min-height: 100vh;
+    }
+}
+@media (min-width: 992px) {
+    section.resume-section-home {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    min-height: 100vh;
+    }
+}

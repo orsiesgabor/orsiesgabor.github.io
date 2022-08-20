@@ -3,6 +3,7 @@
     background-size:     cover;                      /* <------ */
     background-repeat:   no-repeat;
     background-position: center center;              /* optional, center the image */
+	box-shadow: 0 0 40px 40px rgba(83, 61, 61, 0.2);
 }
 
 section.resume-section-home {

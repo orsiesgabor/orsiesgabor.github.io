@@ -1,9 +1,9 @@
 
 :root{
-    --bg-primary-color: rgba(30, 127, 157,1);
-    --bg-primary-color-light: rgba(19, 89, 111, 0.2);
-    --color-link: rgba(15, 109, 138, 1);
-    --color-link-hover: rgba(19, 89, 111, 1);
+    --bg-primary-color: rgba(123, 17, 27,1);
+    --bg-primary-color-light: rgba(176, 45, 58, 0.2);
+    --color-link: rgb(121, 39, 47);
+    --color-link-hover: rgba(123, 17, 27, 1);
 }
 
 .text-primary {

@@ -41,7 +41,6 @@
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --bs-primary-rgb:123, 17, 27;
   --bs-secondary-rgb: 108, 117, 125;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
@@ -234,14 +233,6 @@ sub {
 
 sup {
   top: -0.5em;
-}
-
-a {
-  color: #ae2130;
-  text-decoration: underline;
-}
-a:hover {
-  color: #974a2d;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -7717,10 +7708,6 @@ textarea.form-control-lg {
 }
 
 /* rtl:end:remove */
-.text-primary {
-  --bs-text-opacity: 1;
-  color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
-}
 
 .text-secondary {
   --bs-text-opacity: 1;
@@ -7806,11 +7793,6 @@ textarea.form-control-lg {
 
 .text-opacity-100 {
   --bs-text-opacity: 1;
-}
-
-.bg-primary {
-  --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
 }
 
 .bg-secondary {
@@ -11360,11 +11342,6 @@ p.lead {
     display: flex;
     margin: auto auto 0;
     padding: 0.5rem;
-  }
-  #sideNav .navbar-brand .img-profile {
-    max-width: 10rem;
-    max-height: 10rem;
-    border: 0.5rem solid rgba(200, 63, 63, 0.2);
   }
   #sideNav .navbar-collapse {
     display: flex;

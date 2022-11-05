@@ -1,9 +1,32 @@
+
+:root{
+    --bg-primary-color: rgba(30, 127, 157,1);
+    --bg-primary-color-light: rgba(19, 89, 111, 0.2);
+    --color-link: rgba(15, 109, 138, 1);
+    --color-link-hover: rgba(19, 89, 111, 1);
+}
+
+.text-primary {
+    color: var(--bg-primary-color) !important;
+}
+.bg-primary {
+    background-color: var(--bg-primary-color) !important;
+}
+    
 #home{
     background:linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("../assets/img/csonak.jpg");
     background-size:     cover;                      /* <------ */
     background-repeat:   no-repeat;
     background-position: center center;              /* optional, center the image */
 	box-shadow: 0 0 40px 40px rgba(83, 61, 61, 0.2);
+}
+
+a {
+    color: var(--color-link);
+    text-decoration: underline;
+}
+a:hover {
+    color: var(--color-link-hover);
 }
 
 section.resume-section-home {
@@ -25,10 +48,15 @@ section.resume-section-home {
 }
 @media (min-width: 992px) {
     section.resume-section-home {
-    padding-left: 3rem;
-    padding-right: 3rem;
-    padding-top: 1rem;
-    padding-bottom: 2rem;
-    min-height: 100vh;
+        padding-left: 3rem;
+        padding-right: 3rem;
+        padding-top: 1rem;
+        padding-bottom: 2rem;
+        min-height: 100vh;
+    }
+    #sideNav .navbar-brand .img-profile {
+        max-width: 10rem;
+        max-height: 10rem;
+        border: 0.5rem solid var(--bg-primary-color-light);
     }
 }
